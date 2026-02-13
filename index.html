@@ -1,309 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yan Cauê | H-2A & H-2B Worker</title>
-  
-  <meta name="description" content="Yan Cauê - Versatile Worker for H-2A & H-2B Programs. Farming, Construction & Maintenance.">
-  <meta name="theme-color" content="#15803d">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  
-  <link rel="icon" href="favicon.png" type="image/png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Cauê | Nexus Hub</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav class="industrial-nav" id="navbar">
-    <div class="container nav-content">
-      <div class="logo-area">
-        <span class="logo-icon"><i class="fas fa-hammer"></i></span>
-        <div class="logo-text">
-            <span class="name">YAN CAUÊ</span>
-            <span class="program">H-2A & H-2B CANDIDATE</span>
-        </div>
-      </div>
-      
-      <div class="nav-links">
-        <a href="#profile" class="nav-link" data-translate="nav.profile">PROFILE</a>
-        <a href="#manual-skills" class="nav-link" data-translate="nav.manual">MANUAL SKILLS</a>
-        <a href="#gallery" class="nav-link" data-translate="nav.gallery">GALLERY</a>
-        <a href="#experience" class="nav-link" data-translate="nav.experience">EXPERIENCE</a>
-        <a href="#contact" class="nav-link cta-btn pulse-btn" data-translate="nav.contact">HIRE ME</a>
-      </div>
+    <div class="cyber-grid-bg"></div>
+    <div class="vignette"></div>
 
-      <div class="lang-switcher">
-        <button class="lang-btn" id="lang-switcher-btn" aria-label="Switch Language">
-          <img src="https://flagcdn.com/w40/us.png" id="current-flag" alt="US Flag">
-        </button>
-        <div class="lang-dropdown" id="lang-dropdown">
-          <a href="#" class="lang-option" data-lang="en"><img src="https://flagcdn.com/w40/us.png" alt="USA"> EN</a>
-          <a href="#" class="lang-option" data-lang="pt"><img src="https://flagcdn.com/w40/br.png" alt="Brazil"> PT</a>
-        </div>
-      </div>
-
-      <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
-    </div>
-  </nav>
-
-  <section id="profile" class="hero-section">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <div class="hero-text reveal-left">
-        <div class="availability-badge">
-            <i class="fas fa-check-circle"></i> <span data-translate="hero.badge">AVAILABLE FOR SEASONAL WORK</span>
-        </div>
+    <main class="dashboard-container">
         
-        <h1 data-translate="hero.title">HARDWORKING & VERSATILE LABORER</h1>
-        
-        <h2 class="typing-text">AGRICULTURE • HOSPITALITY • MAINTENANCE</h2>
-        
-        <p class="hero-summary" data-translate="hero.summary">
-          Solid practical experience in diverse fields. From Hotel Reception and Guest Services to Farm Maintenance. Reliable, organized, and ready to work.
-        </p>
-
-        <div class="hero-stats">
-          <div class="stat-item fade-in-up" style="animation-delay: 0.2s;">
-            <i class="fas fa-check-double"></i>
-            <span data-translate="hero.stats.exp">Proven Experience</span>
-          </div>
-          <div class="stat-item fade-in-up" style="animation-delay: 0.4s;">
-            <i class="fas fa-dumbbell"></i>
-            <span data-translate="hero.stats.stamina">Dedicated Worker</span>
-          </div>
-          <div class="stat-item fade-in-up" style="animation-delay: 0.6s;">
-            <i class="fas fa-passport"></i>
-            <span data-translate="hero.stats.passport">Valid Passport</span>
-          </div>
-        </div>
-
-        <div class="btn-group fade-in-up" style="animation-delay: 0.8s;">
-          <a href="#contact" class="btn btn-primary glow-effect" data-translate="hero.btn.contact">CONTACT FOR HIRE</a>
-          
-          <a href="./curriculo.pdf" download="Yan_Caue_Resume.pdf" class="btn btn-outline" data-translate="hero.btn.cv">DOWNLOAD RESUME</a>
-        </div>
-      </div>
-      
-      <div class="hero-image reveal-right">
-        <div class="photo-frame floating-animation">
-            <img src="https://avatars.githubusercontent.com/u/127339610?v=4" alt="Yan Cauê Profile">
-            <div class="photo-caption">
-                <i class="fas fa-user-shield"></i> YAN CAUÊ
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="manual-skills" class="section-gray">
-    <div class="container">
-      <div class="section-header reveal-up">
-        <h3 class="section-title" data-translate="manual.title">PRACTICAL SKILLS</h3>
-        <p class="section-subtitle" data-translate="manual.subtitle">Experience in Hospitality, Farming & General Labor</p>
-      </div>
-
-      <div class="skills-grid-cards">
-        <div class="skill-card reveal-stagger">
-            <div class="card-icon agro"><i class="fas fa-tractor"></i></div>
-            <h4 data-translate="manual.agro.title">Agriculture & Farming</h4>
-            <ul class="skill-list">
-                <li data-translate="manual.agro.l1">Coffee planting & harvesting</li>
-                <li data-translate="manual.agro.l2">Land preparation & cleaning</li>
-                <li data-translate="manual.agro.l3">Vegetable farming</li>
-                <li data-translate="manual.agro.l4">Irrigation systems setup</li>
-            </ul>
-        </div>
-
-        <div class="skill-card reveal-stagger">
-            <div class="card-icon livestock"><i class="fas fa-cow"></i></div>
-            <h4 data-translate="manual.livestock.title">Livestock Care</h4>
-            <ul class="skill-list">
-                <li data-translate="manual.livestock.l1">Cattle feeding & care</li>
-                <li data-translate="manual.livestock.l2">Pig & Poultry management</li>
-                <li data-translate="manual.livestock.l3">Barn cleaning & maintenance</li>
-                <li data-translate="manual.livestock.l4">Fence repair & building</li>
-            </ul>
-        </div>
-
-        <div class="skill-card reveal-stagger">
-            <div class="card-icon hospitality"><i class="fas fa-concierge-bell"></i></div>
-            <h4 data-translate="manual.hospitality.title">Hospitality & Resort</h4>
-            <ul class="skill-list">
-                <li data-translate="manual.hospitality.l1">Hotel Reception & Front Desk</li>
-                <li data-translate="manual.hospitality.l2">Guest Services & Check-in</li>
-                <li data-translate="manual.hospitality.l3">Resort Operations Support</li>
-                <li data-translate="manual.hospitality.l4">Professional Customer Service</li>
-            </ul>
-        </div>
-
-        <div class="skill-card reveal-stagger">
-            <div class="card-icon construct"><i class="fas fa-hard-hat"></i></div>
-            <h4 data-translate="manual.construction.title">Maintenance & Repairs</h4>
-            <ul class="skill-list">
-                <li data-translate="manual.construction.l1">General Hotel Maintenance</li>
-                <li data-translate="manual.construction.l2">Painting & Finishing</li>
-                <li data-translate="manual.construction.l3">Basic Carpentry & Repairs</li>
-                <li data-translate="manual.construction.l4">Tool Operation & Safety</li>
-            </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="tech-skills" class="section-white">
-    <div class="container">
-      <div class="section-header reveal-up">
-        <h3 class="section-title" data-translate="tech.title">THE "SMART WORKER" BONUS</h3>
-        <p class="section-subtitle" data-translate="tech.subtitle">I can handle front-desk systems AND farm technology.</p>
-      </div>
-
-      <div class="tech-showcase">
-        <div class="tech-item reveal-stagger">
-            <div class="tech-icon-circle"><i class="fas fa-solar-panel"></i></div>
-            <div class="tech-info">
-                <h5 data-translate="tech.solar.title">Solar Panel Setup</h5>
-                <p data-translate="tech.solar.desc">Experience installing and maintaining solar energy systems.</p>
-            </div>
-        </div>
-
-        <div class="tech-item reveal-stagger">
-            <div class="tech-icon-circle"><i class="fas fa-video"></i></div>
-            <div class="tech-info">
-                <h5 data-translate="tech.security.title">Security Systems</h5>
-                <p data-translate="tech.security.desc">Setup of security cameras and monitoring systems for property safety.</p>
-            </div>
-        </div>
-
-        <div class="tech-item reveal-stagger">
-            <div class="tech-icon-circle"><i class="fas fa-network-wired"></i></div>
-            <div class="tech-info">
-                <h5 data-translate="tech.net.title">Connectivity & VoIP</h5>
-                <p data-translate="tech.net.desc">Networking knowledge to keep hotel/farm communications running.</p>
-            </div>
-        </div>
-
-        <div class="tech-item reveal-stagger">
-            <div class="tech-icon-circle"><i class="fas fa-laptop-house"></i></div>
-            <div class="tech-info">
-                <h5 data-translate="tech.erp.title">Management Systems</h5>
-                <p data-translate="tech.erp.desc">Experience with ERPs, Booking Systems & Project Management.</p>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery" class="section-gray">
-    <div class="container reveal-up">
-      <div class="section-header">
-        <h3 class="section-title" data-translate="gallery.title">WORK GALLERY</h3>
-        <p class="section-subtitle" data-translate="gallery.subtitle">Proof of work and dedication</p>
-      </div>
-      
-      <div class="carousel-wrapper">
-        <button class="carousel-btn prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
-        
-        <div class="carousel-container">
-          <div class="carousel-track" id="track">
-            <div class="carousel-card">
-                <img src="https://images.unsplash.com/photo-1625246333195-58f21a4061a9?q=80&w=600&auto=format&fit=crop" alt="Farm Work">
-                <div class="overlay"><span data-translate="gallery.img1">Field Work</span></div>
-            </div>
-            <div class="carousel-card">
-                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=600&auto=format&fit=crop" alt="Hospitality">
-                <div class="overlay"><span data-translate="manual.hospitality.l2">Guest Services</span></div>
-            </div>
-            <div class="carousel-card">
-                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop" alt="Construction">
-                <div class="overlay"><span data-translate="gallery.img2">Construction</span></div>
-            </div>
-            <div class="carousel-card">
-                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=600&auto=format&fit=crop" alt="Solar Panel">
-                <div class="overlay"><span data-translate="gallery.img3">Solar Maintenance</span></div>
-            </div>
-            <div class="carousel-card">
-                <img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?q=80&w=600&auto=format&fit=crop" alt="Livestock">
-                <div class="overlay"><span data-translate="gallery.img4">Livestock Care</span></div>
-            </div>
-            <div class="carousel-card">
-                <img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=600&auto=format&fit=crop" alt="Tools">
-                <div class="overlay"><span data-translate="manual.construction.l4">Tool Operation</span></div>
-            </div>
-          </div>
-        </div>
-
-        <button class="carousel-btn next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
-      </div>
-    </div>
-  </section>
-
-  <section id="experience" class="section-white">
-    <div class="container reveal-up">
-      <div class="section-header">
-        <h3 class="section-title" data-translate="exp.title">WORK HISTORY</h3>
-      </div>
-
-      <div class="job-card-container">
-        <div class="job-card">
-            <div class="job-header">
-                <div class="job-role">
-                    <h4 data-translate="exp.job1.role">General Laborer & Hospitality Support</h4>
-                    <span class="job-location" data-translate="exp.job1.loc">Minas Gerais, Brazil</span>
+        <div class="card profile-card glow-blue">
+            <div class="profile-header">
+                <img src="https://avatars.githubusercontent.com/u/127339610?v=4" alt="Yan Avatar" class="avatar">
+                <div class="status-box">
+                    <span class="blinking-dot"></span>
+                    <span class="status-text">SYSTEM ONLINE</span>
                 </div>
-                <div class="job-date">2016 – 2023</div>
             </div>
-            <div class="job-body">
-                <p><strong data-translate="exp.job1.company">Various Employers</strong></p>
-                <ul>
-                    <li data-translate="exp.job1.l1">Hospitality: Front desk support, guest reception, and general hotel maintenance.</li>
-                    <li data-translate="exp.job1.l2">Agriculture: Diverse tasks including planting, harvesting, and irrigation.</li>
-                    <li data-translate="exp.job1.l3">Livestock: Daily care and feeding for cattle and pigs.</li>
-                    <li data-translate="exp.job1.l4">Construction: Assisted in renovation projects, painting, and repairs.</li>
-                    <li data-translate="exp.job1.l5">Reliability: Consistent performance in both customer-facing and manual roles.</li>
-                </ul>
+            <h1>YAN CAUÊ</h1>
+            <p class="role">Front-End Engineer <span class="divider">|</span> H-2A Worker</p>
+            <div class="level-bar">
+                <div class="level-fill"></div>
+                <span>LVL. 26 MULTI-CLASS</span>
             </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="contact" class="section-dark">
-    <div class="container reveal-up">
-      <div class="contact-box">
-        <h2 data-translate="contact.title">READY TO WORK</h2>
-        <p data-translate="contact.text">I am ready for seasonal opportunities (H-2A/H-2B) in Resorts, Hotels, or Farms.</p>
-        
-        <div class="contact-grid">
-            <a href="https://wa.me/5535997209703" target="_blank" class="contact-method pulse-btn">
+        <div class="card github-stats-card">
+            <h3><i class="fas fa-terminal"></i> SYSTEM LOGS // GITHUB</h3>
+            <div class="terminal-window" id="github-feed">
+                <span class="loading-text">> CONNECTING TO GITHUB_API...</span>
+            </div>
+        </div>
+
+        <a href="https://yancaue.me/Portifolio/" class="card main-action glow-purple">
+            <div class="action-content">
+                <h2>DEV SYSTEM</h2>
+                <p>Portfólio de Engenharia & Code</p>
+            </div>
+            <i class="fas fa-code action-icon"></i>
+            <div class="scan-effect"></div>
+        </a>
+
+        <div class="card spotify-card">
+            <div class="spotify-header">
+                <i class="fab fa-spotify"></i> SONIC INPUT
+                <div class="equalizer">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="spotify-embed">
+               <a href="https://open.spotify.com/user/312yarwvfin2wvuu5lffagycknkq" target="_blank">
+                  <img src="https://spotify-recently-played-readme.vercel.app/api?user=312yarwvfin2wvuu5lffagycknkq&width=300" alt="Spotify Listening">
+               </a>
+            </div>
+        </div>
+
+        <a href="./Portifolio-Agro/" class="card agro-action glow-green">
+            <div class="action-content">
+                <h2>WORKER PROFILE</h2>
+                <p>H-2A & H-2B: Agro & General Labor</p>
+            </div>
+            <i class="fas fa-tractor action-icon"></i>
+            <div class="scan-effect-green"></div>
+        </a>
+
+        <div class="card time-card">
+            <div class="clock" id="clock">00:00</div>
+            <div class="location"><i class="fas fa-satellite-dish"></i> MG, BR</div>
+        </div>
+
+        <a href="https://dream.yancaue.me" target="_blank" class="card dream-action glow-cyan">
+            <div class="action-content">
+                <h2>DREAM NEXUS</h2>
+                <p>SaaS de Planejamento Neural</p>
+            </div>
+            <i class="fas fa-network-wired action-icon"></i>
+            <div class="scan-effect-cyan"></div>
+        </a>
+
+        <a href="https://krin.tech" target="_blank" class="card service-action glow-orange">
+            <div class="action-content">
+                <h2>SERVICES HUB</h2>
+                <p>Consultoria & Soluções Digitais</p>
+            </div>
+            <i class="fas fa-briefcase action-icon"></i>
+            <div class="scan-effect-orange"></div>
+        </a>
+
+        <a href="https://imenuflow.krin.tech" target="_blank" class="card imenu-action glow-pink">
+            <div class="action-content">
+                <h2>IMENUFLOW</h2>
+                <p>Sistema de Gestão de Menus</p>
+            </div>
+            <i class="fas fa-utensils action-icon"></i>
+            <div class="scan-effect-pink"></div>
+        </a>
+
+        <a href="#" class="card coming-soon-action glow-gray">
+            <div class="action-content">
+                <h2>EM BREVE</h2>
+                <p>Novidade em desenvolvimento</p>
+            </div>
+            <i class="fas fa-hourglass-end action-icon"></i>
+            <div class="scan-effect-gray"></div>
+        </a>
+
+        <div class="card social-card">
+            <a href="https://wa.me/5535997209703" target="_blank" class="social-btn whatsapp glow-green" title="WhatsApp">
                 <i class="fab fa-whatsapp"></i>
-                <span>+55 (35) 99720-9703</span>
             </a>
-            <div class="contact-method">
+            <a href="https://github.com/YanzinhoCaue" target="_blank" class="social-btn github" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/yancaue" target="_blank" class="social-btn linkedin" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:yancaue@krin.tech" class="social-btn email" title="E-mail">
                 <i class="fas fa-envelope"></i>
-                <span id="email-text">contact@yancaue.me</span>
-                <button id="copy-btn"><i class="far fa-copy"></i></button>
-            </div>
-            <div class="contact-method">
-                <i class="fas fa-map-marker-alt"></i>
-                <span data-translate="contact.location">Eloi Mendes, MG - Brazil</span>
-            </div>
+            </a>
         </div>
 
-        <div class="social-row">
-            <a href="https://linkedin.com/in/yancaue" target="_blank" class="soc-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://wa.me/5535997209703" target="_blank" class="soc-btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </main>
 
-  <footer>
-    <p>© 2025 Yan Cauê | H-2A & H-2B Candidate</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
